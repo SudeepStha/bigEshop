@@ -38,7 +38,7 @@
                         <li class="nav-item">
                            <button class="nav-link text-danger btn">Logout</button>
                         </li>
-                    </form>
+                     </form>
                   @else
                      <li class="nav-item">
                            <a class="nav-link text-success" href="{{ route('login') }}">Login</a>

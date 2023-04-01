@@ -1,0 +1,5 @@
+@extends('admin.app')
+
+@section('content')
+    <h2>This is dashboard.</h2>
+@endsection
