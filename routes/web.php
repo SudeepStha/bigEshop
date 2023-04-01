@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('home.userpage');
+// });
 
 Route::middleware([
     'auth:sanctum',
@@ -29,3 +29,4 @@ Route::middleware([
 });
 
 Route::get('/redirect', [HomeController::class, 'redirect']);
+Route::get('/',[HomeController::class, 'index']);
